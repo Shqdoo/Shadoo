@@ -1,0 +1,96 @@
+import sys
+print("Zadam ci kilka pytań na których podstawie program poda twoje IQ.")
+
+pytanie_1 = input("Aby kontynuować, napisz OK: ")
+
+if pytanie_1.upper() == "OK":
+    print("Pierwsze pytanie.")
+    
+    print("Ile to 12 x 12 - 231^3 x 0?")
+    pytanie_2 = int(input("Podaj odpowiedź: "))
+
+    if pytanie_2 == 144:
+        print("Dobrze!")
+
+    else:
+        print("jestes debilem :D, około 65iq.")
+        sys.exit()
+    
+        
+    print("4! TO?")
+    pytanie_2 = int(input("Podaj odpowiedź: "))
+
+    if pytanie_2 == 24:
+        print("Dobrze!")
+
+    else:
+        print("jestes średniorozgrniętą małpą, 75.")
+        sys.exit()
+        
+        
+        
+        
+    print("czy kolor zielony pozwtaje z połączenia żółtego i niebieskiego napisz TAK/NIE")
+    pytanie_3 = input("Podaj odpowiedź: ")
+
+    if pytanie_3.upper() == "TAK":
+        print("Dobrze!")
+
+    else:
+        print("no tak 90.")
+        sys.exit()
+       
+       
+        
+    print("Mariusz Pudzianowski to")
+    print("A sigma")
+    print("B ligma")
+    print("C sterydziaż")
+    print("D boxer")
+    pytanie_4 = (input("Podaj odpowiedź: "))
+
+    if pytanie_4.upper() == "A":
+        print("Dobrze!")
+
+    else:
+        print("no tak 120 .")
+        sys.exit()
+        
+        
+        
+        
+    print("Dyferencjał to mechanizm związany z:")
+    print("A - hamowaniem  ")
+    print("B - silnikiem")
+    print("C - kołami")
+    print("D - filtrem powietrza")
+    pytanie_4 = (input("Podaj odpowiedź: "))
+
+    if pytanie_4.upper() == "C":
+        print("Dobrze!")
+
+    else:
+        print("UUU bratku niewiedzec co to dyferencjał wstydź sie, było by 125 ale mnie zawiodłes masz 83iq.")
+        sys.exit()
+        
+        
+        
+    print("Ostatnie pytanie:")
+    print("jaki jest najwiekrzy problem samochodow napędzanych wodorem:")
+    print("A - problemy z zapalaniem w zimie.")
+    print("B - przechowywanie wodoru,")
+    print("C - koszty silnika,")
+    print("D - wszystkie odpowiedzi są prawidłowe")
+    pytanie_5 = (input("Podaj odpowiedź: "))
+
+    if pytanie_5.upper() == "B":
+        print("Rozległa wiedza w każdym temacie 140iq - jestes uznawany za geniusza")
+
+    else:
+        print("niestety zainteresuj sie bo to przyszłosc motoryzacji 130iq- bardzo dobry wynik.")
+        sys.exit()
+       
+
+
+else:
+    print("jestes debilem :D.")
