@@ -1,0 +1,47 @@
+import datetime
+now = datetime.datetime.now()
+
+a = int(input("Podaj rok urodzenia: "))
+b = int(input("Podaj miesiąc urodzenia: "))
+c = int(input("Podaj dzień urodzenia: "))
+
+rok = now.year - a
+miesiąc = now.month -b
+dzień = now.day -c
+
+if miesiąc < 0:
+    rok -= 1
+    miesiąc += 12
+
+if dzień < 0:
+    miesiąc -= 1
+    dzień += 31
+    
+    
+    
+    
+if dzień == 0:
+    print("masz",rok,"lat",miesiąc,"miesięcy")   
+    
+elif miesiąc == 0:
+    print("masz",rok,"lat",dzień,"dni") 
+    
+else:
+    print("masz",rok,"lat",miesiąc,"miesięcy",dzień,"dni")    
+    
+   
+    
+if rok > now.year:
+    print("błędny rok")
+    
+if miesiąc > 12:
+    print("błędny Miesiąc")    
+
+if miesiąc < 0:
+    print("błędny Miesiąc")
+    
+if dzień > 31:
+    print("błędny Dzień")
+    
+if dzień < 0:
+    print("błędny Dzień")    
