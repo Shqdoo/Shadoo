@@ -1,0 +1,164 @@
+punkty = 0
+
+print("10 PYTAŃ O BRAWL STARS")
+pytanie_0 = input("Aby kontynuować, napisz OK: ")
+
+if pytanie_0.upper() == "OK":
+    print("Pierwsze pytanie.")
+    
+print("leon to postac:")
+print("A bardzo rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    print("Dobrze!")
+    punkty += 1
+    
+print("emz to postac:")
+print("A bardzo rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    print("Dobrze!")
+    punkty += 1
+
+print("bull to postac:")
+print("A rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "A":
+    print("Dobrze!")
+    punkty += 1
+    
+print("lou to postac:")
+print("A bardzo rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    print("Dobrze!")
+    punkty += 1
+
+print("Tara to postac:")
+print("A bardzo rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    print("Dobrze!")
+    punkty += 1
+
+print("perl to postac: ")
+print("A bardzo rzadka")
+print("B epicka")
+print("C mityczna")
+print("D legendarna")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "A":
+    print("Dobrze!")
+    punkty += 1
+
+print("króra postac ma najwiecej skinow: ")
+print("A shelly")
+print("B crow")
+print("C colt")
+print("D bo")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    print("Dobrze!")
+    punkty += 1
+    
+print("króra postac ma najmniej skinow: ")
+print("A doug")
+print("B emz")
+print("C mico")
+print("D bo")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    print("Dobrze!")
+    punkty += 1
+    
+print("Ile pocisków wystrzeliwuje colt? ")
+print("A 4")
+print("B 6")
+print("C 8")
+print("D 3")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    print("Dobrze!") 
+    punkty += 1
+    
+print("kto ma więcej skinów typu mecha? ")
+print("A edgar")
+print("B crow")
+print("C bo")
+print("D maja tyle samo")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    print("Dobrze!") 
+    punkty += 1
+
+print("który mamy aktualnie sezon w brawl stars? ")
+print("A 12")
+print("B 23")
+print("C 22")
+print("D 21")
+
+pytanie_4 = (input("Podaj odpowiedź: "))
+if pytanie_4.upper() == "C":
+    print("Dobrze!") 
+    punkty += 1   
+    
+if punkty == 0:
+    print("zagraj w brawl stars")
+
+elif punkty == 1:
+    print("tragedia pograj w brawlstars")
+    
+elif punkty == 2:
+    print("słabo")
+    
+elif punkty == 3:
+    print("jest źle ")
+
+elif punkty == 4:
+    print("nie jest dobrze ")
+
+elif punkty == 5:
+    print("srednioo")
+    
+elif punkty == 6:
+    print("nie jest źle")
+    
+elif punkty == 7:
+    print("widac ze grasz w brawlstars")
+    
+elif punkty == 8:
+    print("widac ze niegrasz mico i edgarem")
+    
+elif punkty == 9:
+    print("prawdziwy fan brawlstars")
+    
+elif punkty == 10:
+    print("specjalista brawlstars")
+
+wynik = punkty
+print(f"Twój wynik to: {punkty}/10")
