@@ -1,0 +1,8 @@
+import datetime
+now = datetime.datetime.now()
+
+a = int(input("Podaj rok urodzenia: "))
+b = int(input("Podaj miesiąc urodzenia: "))
+c = int(input("Podaj dzień urodzenia: "))
+
+print("urodziłes się:",c,b,a,"roku")
