@@ -1,0 +1,150 @@
+punkty = 0
+
+print("10 PYTAŃ O SAMOCHODACH")
+pytanie_0 = input("Aby kontynuować, napisz OK: ")
+
+if pytanie_0.upper() == "OK":
+    print("Pierwsze pytanie.")
+    
+print("Ile razy bankrutowała firma aston martin:")
+print("A 0 razy")
+print("B 3 razy")
+print("C 7 razy")
+print("D 9 razy")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+    
+print("króra marka wykupiła 75% udziałów w astonie martinie:")
+print("A Mazda")
+print("B fiat")
+print("C volvo")
+print("D ford")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    punkty += 1
+
+print("za co odpowiada dyferecjał w samochodzie:")
+print("A różnicowanie prędkości obrotowej")
+print("B Sterowanie systemem ABS")
+print("C Regulacja kimatyzacji")
+print("D Regulacja poziomu oleju")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "A":
+    punkty += 1
+    
+print("które auto niema w logo koloru niebieskiego :")
+print("A subaru")
+print("B bmw")
+print("C kia")
+print("D ford")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+
+print("która marna nie produkuje ciężarówek(tir):")
+print("A volvo")
+print("B ford")
+print("C mercedes")
+print("D mazda")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    punkty += 1
+
+print("którego z tych aut niema policja w dubaju: ")
+print("A Audi R8")
+print("B Nissan GT-R")
+print("C Lamborghini Aventador")
+print("D porshe 911")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    punkty += 1
+
+print("które auto jest najtańsze: ")
+print("A chevrolet camaro")
+print("B audi r8")
+print("C nissan gtr")
+print("D bmw i8")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "A":
+    punkty += 1
+    
+print("muscle carem jest: ")
+print("A Toyota Yaris")
+print("B Chevrolet Camaro")
+print("C Lamborghini Aventador")
+print("D audi a8")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    punkty += 1
+    
+print("które z tych mark produkuja motory(jednoślady)? ")
+print("A Suzuki")
+print("B mercedes")
+print("C audi")
+print("D ford")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    punkty += 1
+    
+print("czy do silnika disel mozna zamontowac LPG? ")
+print("TAK")
+print("NIE")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "NIE":
+    punkty += 1
+
+print("co oznacza numer po V w silniku np V12? ")
+print("A moc silnika")
+print("B pojemnosc silnika ")
+print("C układ cylindrów")
+
+pytanie_4 = (input("Podaj odpowiedź: "))
+if pytanie_4.upper() == "C":
+    punkty += 1   
+    
+if punkty == 0:
+    print("amator")
+
+elif punkty == 1:
+    print("nic o samochodach niewiesz ")
+    
+elif punkty == 2:
+    print("widac ze ogladasz wheel with it XD")
+    
+elif punkty == 3:
+    print("jest źle ")
+
+elif punkty == 4:
+    print("nie jest dobrze ")
+
+elif punkty == 5:
+    print("srednioo")
+    
+elif punkty == 6:
+    print("interesujesz sie motoryzacja")
+    
+elif punkty == 7:
+    print("lubisz autka")
+    
+elif punkty == 8:
+    print("widac ze jebiesz miate")
+    
+elif punkty == 9:
+    print("prawdziwy fan motoryzacji")
+    
+elif punkty == 10:
+    print("specjalista brawlstars")
+
+wynik = punkty
+print(f"Twój wynik to: {punkty}/10")
