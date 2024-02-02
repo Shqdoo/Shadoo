@@ -1,0 +1,150 @@
+punkty = 0
+
+print("10 PYTAŃ O CS GO")
+pytanie_0 = input("Aby kontynuować, napisz OK: ")
+
+if pytanie_0.upper() == "OK":
+    print("Pierwsze pytanie.")
+
+print("Ile kosztuje ak47:")
+print("A 1700")
+print("B 2500")
+print("C 2700")
+print("D 3100")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+
+print("ile kosztuje M4A1s:")
+print("A 3100")
+print("B 3300")
+print("C 2700")
+print("D 2900")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    punkty += 1
+
+print("ile kosztuje M4a4:")
+print("A 4400")
+print("B 3100")
+print("C 2700")
+print("D 2900")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    punkty += 1
+
+print("która drużyna wygrała pierwszy międzynarodowy turniej w CSGO :")
+print("A ENCE")
+print("B VIRTUS PRO")
+print("C NIP")
+print("D NAVI")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+
+print("która drużyna wygrała międzynarodowy turniej W 2021 w CSGO:")
+print("A ENCE")
+print("B VIRTUS PRO")
+print("C NIP")
+print("D NAVI")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "D":
+    punkty += 1
+
+print("która drużyna wygrała międzynarodowy turniej Atlanta 2017 CSGO: ")
+print("A ENCE")
+print("B VIRTUS PRO")
+print("C NIP")
+print("D NAVI")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "B":
+    punkty += 1
+
+print("jaka jest najpopularniejsza mapa w csgo: ")
+print("A dust 2")
+print("B offce")
+print("C anubis")
+print("D inferno")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "A":
+    punkty += 1
+
+print("która z tych broni niezabija na 1 strzał w głowę przeciwnika : ")
+print("A ak47")
+print("B revolver r8")
+print("C m4a1s")
+print("D m4a4")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+
+print("na jakim numerze jest bomba? ")
+print("A 1")
+print("B 3")
+print("C 4")
+print("D 5")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "C":
+    punkty += 1
+
+print("czy csa jest lepszy od csgo? ")
+print("TAK")
+print("NIE")
+pytanie_4 = (input("Podaj odpowiedź: "))
+
+if pytanie_4.upper() == "NIE":
+    punkty += 1
+
+print("która z podanych broni niema celownika? ")
+print("A AUG")
+print("B SSG ")
+print("C ak47")
+
+pytanie_4 = (input("Podaj odpowiedź: "))
+if pytanie_4.upper() == "C":
+    punkty += 1   
+
+if punkty == 0:
+    print("nieznasz gry cs")
+
+elif punkty == 1:
+    print("coś słyszałes o csie ")
+
+elif punkty == 2:
+    print("nigdy nie grałes w csa")
+
+elif punkty == 3:
+    print("niewiesz za duzo o cs ")
+
+elif punkty == 4:
+    print("nie interesujesz sie pro liga csgo ")
+
+elif punkty == 5:
+    print("srednioo")
+
+elif punkty == 6:
+    print("interesujesz sie csem")
+
+elif punkty == 7:
+    print("lubisz csa")
+
+elif punkty == 8:
+    print("widac ze interesujesz sie csem i proliga")
+
+elif punkty == 9:
+    print("prawdziwy fan csa i interesije sie proliga  ")
+
+elif punkty == 10:
+    print("specjalista zna sie na csie i pro lidze")
+
+wynik = punkty
+print(f"Twój wynik to: {punkty}/10")
